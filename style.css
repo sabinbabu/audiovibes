@@ -2,6 +2,7 @@
     margin: 0 ;
     padding: 0;
     font-family: Montserrat;
+    
 }
 
 .white{
@@ -15,12 +16,12 @@
 
 .main{
     display: flex;
+    background-color: #000;
 }
 
 /* sidebar */
 
 .sidebar{
-    background-color: #000;
     height: 100vh;
     width: 22rem;
 }
@@ -79,10 +80,73 @@ border: none;
 font-weight: 650;
 }
 
+/* main */
+
 .main-content{
-    background-color: blue;
+    background-color: #141414;
     flex: 1;
+    padding: 1rem;
 }
+
+.main-content h3{
+    margin-top: 1rem;
+}
+
+.content-cards{
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.main-nav{
+    height: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #141414;
+    align-items: center;
+    padding: 1rem;
+}
+
+.black{
+    background-color: #000;
+    color: #fff;
+}
+
+.main-card{
+    background-color:#1e1e1eee ;
+    width: 14%;
+    height: 15.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 2rem 1rem 0 1rem;
+}
+
+.main-card p{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+
+}
+
+.img-card{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.img-card img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+
 .music-player{
     background-color: blueviolet;
     bottom: 0;
