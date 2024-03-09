@@ -1,0 +1,92 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+.white{
+    color: #fff;
+}
+
+.margin-left{
+    margin-left: 1rem;
+}
+
+
+.main{
+    display: flex;
+}
+
+/* sidebar */
+
+.sidebar{
+    background-color: #000;
+    height: 100vh;
+    width: 22rem;
+}
+
+.sidebar-menu{
+    background-color: #141414;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+}
+
+.menu-item{
+    line-height: 1rem;
+    padding: 1rem;
+}
+
+.sidebar-library{
+    background-color: #141414;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.library-item{
+    line-height: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-title img{
+    height: 1rem;
+    width: 1rem;
+    margin-right: 1rem;
+}
+
+.library-content{
+    background-color: #1e1e1eee;
+    padding: 1rem;
+    line-height: 2.5rem;
+    border-radius: 0.5rem;
+    margin: 0.7rem 0.7rem 1.5rem 0.7rem;
+}
+
+.library-content p{
+    font-size: 0.8rem;
+}
+
+.badge{
+border-radius: 1rem;
+line-height: 1.7rem;
+padding: 0 1rem;
+border: none;
+font-weight: 650;
+}
+
+.main-content{
+    background-color: blue;
+    flex: 1;
+}
+.music-player{
+    background-color: blueviolet;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+}
